@@ -15,8 +15,28 @@
   background-color: #f8f8ff;
 }
 .bayangan {
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 5px rgba(110, 29, 172, 0.2);
 }
 .bayangan-skill {
   box-shadow: 5px 5px 5px 5px rgba(24, 140, 194, 0.2);
+}
+.judulbesar {
+  display: flex;
+  box-shadow: 5px 5px 5px 5px rgba(24, 140, 194, 0.2);
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.judulbesar-project {
+  display: flex;
+  box-shadow: 5px 5px 5px 5px rgba(110, 29, 172, 0.2);
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.card-project:hover {
+  transform: scale(1.1);
+  width: 100%;
 }
